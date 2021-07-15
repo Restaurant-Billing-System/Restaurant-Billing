@@ -18,22 +18,8 @@ public int z=0;
      */
     public home() {
         initComponents();
-        
-        /*jButton6.setVisible(false);
-        jButton8.setVisible(false);
-        jButton9.setVisible(false);
-        jButton10.setVisible(false);
-        jButton12.setVisible(false);
-        jButton13.setVisible(false);
-        jLabel5.setVisible(false);
-        jLabel6.setVisible(false);
-        jLabel9.setVisible(false);
-        jLabel10.setVisible(false);
-        jLabel11.setVisible(false);
-        jLabel12.setVisible(false);*/
         jButton12.setVisible(false);
         jLabel12.setVisible(false);
-        jButton1.setVisible(false);
     }
 
     /**
@@ -208,113 +194,15 @@ public int z=0;
         }
     }//GEN-LAST:event_jButton10ActionPerformed
 
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        // TODO add your handling code here:
-        /*if(z==0)
-        {
-            try{
-                 Thread.sleep(250);
-                 jButton9.setVisible(true);
-                 jLabel9.setVisible(true);
-            }
-            catch(Exception e)
-            {}
-        }
-        else{
-            
-        jButton6.setVisible(false);
-        
-        jButton8.setVisible(false);
-        jButton9.setVisible(false);
-        jButton10.setVisible(false);
-        jButton12.setVisible(false);
-        jLabel5.setVisible(false);
-        jLabel6.setVisible(false);
-        jLabel9.setVisible(false);
-        jLabel10.setVisible(false);
-        jLabel12.setVisible(false);
-        z=0;
-        }*/
-    }//GEN-LAST:event_jButton1MouseClicked
-
-    private void jButton9ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jButton9ComponentShown
-        // TODO add your handling code here:
-        try{
-                 Thread.sleep(250);
-                 jButton6.setVisible(true);
-                 jLabel5.setVisible(true);
-            }
-            catch(Exception e)
-            {}
-    }//GEN-LAST:event_jButton9ComponentShown
-
-    private void jButton6ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jButton6ComponentShown
-        // TODO add your handling code here:
-        try{
-                 Thread.sleep(250);
-                 jButton8.setVisible(true);
-                 jLabel6.setVisible(true);
-            }
-            catch(Exception e)
-            {}
-    }//GEN-LAST:event_jButton6ComponentShown
-
-    private void jButton8ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jButton8ComponentShown
-        // TODO add your handling code here:
-        /*try{
-                 Thread.sleep(250);
-                 jButton7.setVisible(true);
-                 jLabel7.setVisible(true);
-            }
-            catch(Exception e)
-            {}*/
-        /*try{
-                 Thread.sleep(250);
-                 jButton12.setVisible(true);
-                 jLabel12.setVisible(true);
-            }
-            catch(Exception e)
-            {}*/
-            try{
-                 Thread.sleep(250);
-                 jButton10.setVisible(true);
-                 jLabel10.setVisible(true);
-            }
-            catch(Exception e)
-            {}
-    }//GEN-LAST:event_jButton8ComponentShown
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
         new billing().setVisible(true);
     }//GEN-LAST:event_jButton12ActionPerformed
 
-    private void jButton12ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jButton12ComponentShown
-        // TODO add your handling code here:
-           /*    try{
-                 Thread.sleep(250);
-                 jButton10.setVisible(true);
-                 jLabel10.setVisible(true);
-            }
-            catch(Exception e)
-            {}*/
-    }//GEN-LAST:event_jButton12ComponentShown
+   
 
-    private void jButton10ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jButton10ComponentShown
-        // TODO add your handling code here:
-        /*try{
-                 Thread.sleep(250);
-                 jButton13.setVisible(true);
-                 jLabel11.setVisible(true);
-                 z=1;
-            }
-            catch(Exception e)
-            {}*/
-    }//GEN-LAST:event_jButton10ComponentShown
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+ 
 
     /**
      * @param args the command line arguments
@@ -352,7 +240,6 @@ public int z=0;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton6;
