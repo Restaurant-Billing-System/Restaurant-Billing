@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
 package restaurant.billing.system;
-
-/**
- *
- * @author Narasimha
- */
 public class RestaurantBillingSystem {
 
     /**
