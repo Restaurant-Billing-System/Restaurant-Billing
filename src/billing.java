@@ -11,16 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import com.itextpdf.text.pdf.PdfPTable;
 import net.proteanit.sql.DbUtils;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Narasimha
- */
 public class billing extends javax.swing.JFrame {
     public int finalTotal=0;
     /**
